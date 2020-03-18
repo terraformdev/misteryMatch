@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654470182852",
+    "firebase_url": "https://misterymatch.firebaseio.com",
+    "project_id": "misterymatch",
+    "storage_bucket": "misterymatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654470182852:android:c5d0e11399d313a9",
+        "android_client_info": {
+          "package_name": "com.misterymatch.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654470182852-ri5fph62lfn914aahhvoe55impom9fj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.misterymatch.app",
+            "certificate_hash": "21f915f6f2499b05689b1c0042d6dfc631bca4dc"
+          }
+        },
+        {
+          "client_id": "654470182852-k81aeh5vgsslup7qvvkndb2817od0q86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKSyY4hFt8rr2p_vaBYZp1vm1TQgOAyZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654470182852-k81aeh5vgsslup7qvvkndb2817od0q86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <me.himanshusoni.chatmessageview.ChatMessageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cmv_arrowGravity="start"
+        app:cmv_arrowMargin="8dp"
+        app:cmv_arrowPosition="right"
+        app:cmv_backgroundColor="#e1ffc7"
+        app:cmv_backgroundColorPressed="#FFBABABA"
+        app:cmv_contentPadding="10dp"
+        app:cmv_cornerRadius="12dp"
+        app:cmv_showArrow="true">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorum"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#434343" />
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+    <TextView
+        android:id="@+id/time_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:drawableEnd="@drawable/ic_single_tick"
+        android:text="08:33 pm"
+        android:drawablePadding="4dp"
+        android:textAllCaps="true"
+        android:textColor="#AAA"
+        android:textSize="10sp" />
+
+
+</LinearLayout>

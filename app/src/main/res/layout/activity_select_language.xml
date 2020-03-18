@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_lay"
+        layout="@layout/toolbar" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/change_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_lay"
+        android:layout_margin="@dimen/dp12"
+        android:text="@string/select_language"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <View
+        android:id="@+id/space_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_below="@id/change_language"
+        android:background="@color/colorLightGrey" />
+
+    <CheckedTextView
+        android:id="@+id/eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space_1"
+        android:layout_margin="@dimen/dp8"
+        android:checked="true"
+        android:drawablePadding="@dimen/dp8"
+        android:drawableStart="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center"
+        android:text="English" />
+
+    <View
+        android:id="@+id/space_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_below="@id/eng"
+        android:background="@color/colorLightGrey" />
+</RelativeLayout>
